@@ -1,0 +1,81 @@
+# OralSDv1: Multi-Modal Oral Disease Dataset
+
+**OralSDv1** is a **custom-curated, expert-verified multi-modal dataset** designed for research in oral disease classification. This dataset was originally introduced in the paper _"VIT-MEDBERT: A Multi-Modal Transformer-Based Framework for Oral Disease Classification"_. It supports machine learning experiments that integrate both oral images and corresponding textual symptom descriptions.
+
+## Dataset Overview
+
+- **Total samples:** 1,163 paired entries
+- **Modalities:**
+  - **Visual:** High-resolution oral cavity images
+  - **Textual:** Symptom descriptions and precautionary advice (e.g., pain intensity, symptom duration, clinical observations)
+- **Classes:** Six common oral conditions:
+  - **Caries:** Tooth decay and cavities
+  - **Calculus:** Tartar/plaque buildup
+  - **Gingivitis:** Inflamed gums
+  - **Tooth Discoloration:** Staining or abnormal color
+  - **Ulcers:** Oral sores
+  - **Hypodontia:** Missing teeth
+- **Label Balance:** Each folder contains approximately 175–200 samples to ensure balanced representation across all classes[1].
+
+## Repository Structure
+
+```
+OralSDv1/
+├── Calculus/
+├── Caries/
+├── Gingivitis/
+├── Hypodontia/
+├── Mouth_Ulcers/
+├── Tooth_Discoloration/
+├── classes_.csv
+├── classes_.xlsx
+├── classes_final.xlsx
+```
+
+- Each folder contains samples (image + text) for a specific disease class.
+- Annotation files (`classes_.csv`, `.xlsx`) provide metadata and class labels for all samples.
+
+## Intended Usage
+
+OralSDv1 is intended for researchers and developers working in:
+
+- Multi-modal medical AI (image + text)
+- Automated oral disease diagnosis/classification
+- Health informatics and dental informatics
+
+Possible tasks include:
+- Training and validation of multi-modal deep learning models
+- Benchmarking oral disease classifiers
+- Natural language and computer vision fusion in medical contexts
+
+## How to Use
+
+1. **Clone or Download**:  
+   Download the repository or use `git clone` to obtain the dataset.
+2. **Data Access**:  
+   - Image data is organized by disease class subdirectories.
+   - Symptom description and class metadata are found in the provided `.csv`/`.xlsx` files.
+3. **Pairing Images and Text**:  
+   Use the annotation files to map images to their corresponding textual descriptions.
+
+## Citation
+
+If you use OralSDv1 in your research, please cite:
+
+> Maity, A., Ruj, R., Das, A., Chakraborty, B.  
+> "VIT-MEDBERT: A Multi-Modal Transformer-Based Framework for Oral Disease Classification"  
+> [Conference/Journal details, Year, and DOI as appropriate][1]
+
+## Acknowledgements
+
+This dataset was created, annotated, and validated with expert clinical oversight[1].
+
+## License
+
+_The license for the dataset is not explicitly specified in the repository as of this version. Please contact the repository owners or dataset authors for details before commercial or large-scale use._
+
+**Note:**  
+This README is based on the structure and scientific description of OralSDv1 from its original publication and the current GitHub repository contents. Update and adapt sections as needed based on additional files, usage policies, or metadata provided in the repository itself[1][2].
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/53776883/fea1c2f6-9a3f-4a9e-9981-75d9c5a5dbb2/vitMedBert.pdf
+[2] https://github.com/enderXM249/OralSDv1
