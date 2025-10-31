@@ -2,6 +2,8 @@
 
 **OralSDv1** is a **custom-curated, expert-verified multi-modal dataset** designed for research in oral disease classification. This dataset was originally introduced in the paper _"VIT-MEDBERT: A Multi-Modal Transformer-Based Framework for Oral Disease Classification"_. It supports machine learning experiments that integrate both oral images and corresponding textual symptom descriptions.
 
+<img width="533" height="318" alt="image" src="https://github.com/user-attachments/assets/4c7528ea-1d12-4899-b712-b4b2fef82ecd" />
+
 ## Dataset Overview
 
 - **Total samples:** 1,163 paired entries
