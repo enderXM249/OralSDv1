@@ -64,10 +64,6 @@ Possible tasks include:
 
 If you use OralSDv1 in your research, please cite:
 
-> Maity, A., Ruj, R., Das, A., Chakraborty, B.  
-> "VIT-MEDBERT: A Multi-Modal Transformer-Based Framework for Oral Disease Classification"  
-> [Conference/Journal details, Year, and DOI as appropriate][1]
-
 ## Acknowledgements
 
 This dataset was created, annotated, and validated with expert clinical oversight[1].
@@ -79,5 +75,5 @@ _The license for the dataset is not explicitly specified in the repository as of
 **Note:**  
 This README is based on the structure and scientific description of OralSDv1 from its original publication and the current GitHub repository contents. Update and adapt sections as needed based on additional files, usage policies, or metadata provided in the repository itself[1][2].
 
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/53776883/fea1c2f6-9a3f-4a9e-9981-75d9c5a5dbb2/vitMedBert.pdf
-[2] https://github.com/enderXM249/OralSDv1
+[1] https://drive.google.com/file/d/1dUzWpKNQw09PR6nYeYbMUGDD4B7hUw6J/view?usp=sharing
+[2] https://drive.google.com/drive/folders/1ludbMx8YCPX0iURlACjh0OB0kuNmueVw?usp=sharing 
