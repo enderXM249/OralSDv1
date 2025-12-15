@@ -75,5 +75,5 @@ _The license for the dataset is not explicitly specified in the repository as of
 **Note:**  
 This README is based on the structure and scientific description of OralSDv1 from its original publication and the current GitHub repository contents. Update and adapt sections as needed based on additional files, usage policies, or metadata provided in the repository itself[1][2].
 
-[1] https://drive.google.com/file/d/1dUzWpKNQw09PR6nYeYbMUGDD4B7hUw6J/view?usp=sharing
-[2] https://drive.google.com/drive/folders/1ludbMx8YCPX0iURlACjh0OB0kuNmueVw?usp=sharing 
+[1] https://drive.google.com/file/d/1kwukp14SMGs1Knyd9BL4-YID1vQcZk5l/view?usp=drive_link
+[2] https://docs.google.com/presentation/d/1vkJ3xqWae2nuQSpRAZmyNA_oOyAIRjpp/edit?usp=drive_link&ouid=104021601231149925792&rtpof=true&sd=true
